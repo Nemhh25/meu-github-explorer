@@ -13,5 +13,4 @@ function RepoCard({ repo }) {
         </li>
     )
 }
-
 export default RepoCard
