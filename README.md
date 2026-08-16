@@ -1,12 +1,12 @@
 # GitHub Repo Explorer
 
-Aplicação React que busca o perfil público de um usuário do GitHub e lista seus repositórios, consumindo a API REST oficial do GitHub. Segundo projeto de uma trilha de portfólio focada em fundamentos de front-end antes de avançar para TypeScript e back-end.
+Aplicação React que busca o perfil público de um usuário do GitHub e lista seus repositórios, consumindo a API REST oficial do GitHub. Segundo projeto de uma trilha de portfólio focada em fundamentos de front-end.
 
 **🔗 Demo ao vivo:** https://meu-github-explorer.vercel.app/
 
 ## Sobre o projeto
 
-Depois de uma landing page estática em HTML/CSS puros (Projeto 1), este projeto introduz React: componentização, hooks de estado, formulários controlados e consumo de dado assíncrono vindo de uma API externa real — a base de praticamente qualquer aplicação front-end profissional.
+Depois de uma landing page estática em HTML/CSS puros (Projeto 1), este projeto introduz React: componentização, hooks de estado, formulários controlados e consumo de dado assíncrono vindo de uma API externa real.
 
 ## Funcionalidades
 
