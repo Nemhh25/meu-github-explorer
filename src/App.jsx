@@ -54,8 +54,8 @@ function App() {
         <button type='submit'>Buscar</button>
       </form>
 
-      {loading && <p>Carregando...</p>}
-      {error && <p>Erro: {error}</p>}
+      {loading && <p className='loading-message'>Carregando...</p>}
+      {error && <p className='error-message'>Erro: {error}</p>}
       {profile && (
         <div className="profile-card">
           <img src={profile.avatar_url} alt={`Avatar de ${profile.login}`} width="100" />

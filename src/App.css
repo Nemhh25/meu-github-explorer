@@ -7,6 +7,7 @@
   --color-text-muted: #a8a29a;
   --color-accent: #c9a961;
   --color-border: #2a2a2a;
+  --color-error: #b3574a;
 }
 
 * {
@@ -68,6 +69,34 @@ button {
   cursor: pointer;
 }
 
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+a:focus-visible {
+  outline: 1px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+.loading-message {
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.error-message {
+  color: var(--color-error);
+  border-left: 2px solid var(--color-error);
+  padding-left: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
 .profile-card {
   display: flex;
   align-items: center;
@@ -89,7 +118,7 @@ button {
 }
 
 .profile-card p {
-  color: vard(--color-text-muted);
+  color: var(--color-text-muted);
   font-size: 0.9rem;
 }
 
@@ -104,6 +133,7 @@ ul {
   border: 1px solid var(--color-border);
   padding: 1rem;
   background-color: var(--color-bg-alt);
+  transition: border-color 0.2s ease;
 }
 
 .repo-card h3 {
@@ -111,6 +141,7 @@ ul {
   font-weight: 500;
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
+
 }
 
 .repo-card p {
@@ -121,4 +152,20 @@ ul {
 
 .repo-card a {
   font-size: 0.9rem;
+}
+
+.repo-card:hover {
+  border-color: var(--color-accent);
+}
+
+@media (max-width: 480px) {
+  form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  input,
+  button {
+    width: 100%;
+  }
 }
