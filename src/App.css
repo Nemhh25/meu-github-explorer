@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
   --color-bg: #0d0d0d;
@@ -19,11 +19,10 @@
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
-
 
 .app {
   max-width: 640px;
@@ -32,7 +31,7 @@ body {
 }
 
 h1 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-size: clamp(2rem, 5vw, 3rem);
   margin-bottom: 1.5rem;
@@ -47,7 +46,7 @@ form {
 
 label {
   font-size: 0.9rem;
-  color: var(--color-text-muted)
+  color: var(--color-text-muted);
 }
 
 input {
@@ -55,7 +54,7 @@ input {
   border: 1px solid var(--color-border);
   color: var(--color-text);
   padding: 0.5rem 0.75rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.95rem;
 }
 
@@ -64,11 +63,10 @@ button {
   color: var(--color-bg);
   border: none;
   padding: 0.5rem 1.25rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   cursor: pointer;
 }
-
 
 a {
   color: var(--color-accent);
@@ -112,7 +110,7 @@ a:focus-visible {
 }
 
 .profile-card h2 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: 500;
   font-size: 1.5rem;
 }
@@ -137,11 +135,10 @@ ul {
 }
 
 .repo-card h3 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: 500;
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
-
 }
 
 .repo-card p {
