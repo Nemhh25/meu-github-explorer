@@ -36,3 +36,89 @@ h1 {
   font-size: clamp(2rem, 5vw, 3rem);
   margin-bottom: 1.5rem;
 }
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+label {
+  font-size: 0.9rem;
+  color: var(--color-text-muted)
+}
+
+input {
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  padding: 0.5rem 0.75rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+}
+
+button {
+  background-color: var(--color-accent);
+  color: var(--color-bg);
+  border: none;
+  padding: 0.5rem 1.25rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  border: 1px solid var(--color-border);
+  margin-bottom: 2rem;
+}
+
+.profile-card img {
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.profile-card h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.profile-card p {
+  color: vard(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.repo-card {
+  border: 1px solid var(--color-border);
+  padding: 1rem;
+  background-color: var(--color-bg-alt);
+}
+
+.repo-card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.repo-card p {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.repo-card a {
+  font-size: 0.9rem;
+}

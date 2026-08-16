@@ -57,7 +57,7 @@ function App() {
       {loading && <p>Carregando...</p>}
       {error && <p>Erro: {error}</p>}
       {profile && (
-        <div>
+        <div className="profile-card">
           <img src={profile.avatar_url} alt={`Avatar de ${profile.login}`} width="100" />
           <h2>{profile.name || profile.login}</h2>
           {profile.bio && <p>{profile.bio}</p>}

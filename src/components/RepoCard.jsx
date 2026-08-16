@@ -1,6 +1,6 @@
 function RepoCard({ repo }) {
     return (
-        <li>
+        <li className="repo-card">
             <h3>{repo.name}</h3>
 
             {repo.description && <p>{repo.description}</p>}
